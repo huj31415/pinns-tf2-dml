@@ -67,6 +67,7 @@ trainer:
 
 model:
   loss_fn: mse
+  jit_compile: false
 
 train: true
 val: true

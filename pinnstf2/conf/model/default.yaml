@@ -1,7 +1,7 @@
 _target_: pinnstf2.models.PINNModule
 _partial_: true
 loss_fn: sse
-jit_compile: true
+jit_compile: false
 amp: false
 dtype: float32
 optimizer:

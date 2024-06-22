@@ -74,6 +74,7 @@ net:
 
 model:
   loss_fn: mse
+  jit_compile: false
 
 trainer:
   max_epochs: 10000

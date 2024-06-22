@@ -84,6 +84,7 @@ trainer:
 model:
   loss_fn: sse
   runge_kutta: ${runge_kutta}
+  jit_compile: false
 
 train: true
 test: false

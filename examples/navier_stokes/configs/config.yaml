@@ -51,6 +51,7 @@ model:
   extra_variables:
     l1: 0.0
     l2: 0.0
+  jit_compile: false
 
 trainer:
   max_epochs: 250000
